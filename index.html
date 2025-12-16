@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Levi Hekman | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <!-- Top utility bar -->
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <div class="topbar-right">
+          <a href="#contact" class="topbar-link">Contact</a>
+          <span class="topbar-sep">•</span>
+          <button class="topbar-link" type="button">EN</button>
+          <span class="topbar-sep">•</span>
+          <a href="#login" class="topbar-link">Log in</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main nav -->
+    <div class="mainnav">
+      <div class="container nav-inner">
+        <a class="brand" href="#home">Levi Hekman</a>
+
+        <nav class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#knowledge">Knowledge Areas</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="nav-cta" href="#contact">Let’s Talk →</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <p class="eyebrow-label">JUNIOR CYBERSECURITY PROFESSIONAL </p>
+      <h1 class="hero-name">Levi Hekman</h1>
+      <p class="hero-role">Penetration Tester | Vullnerability assessment</p>
+      <p class="hero-value-prop">Helping organizations identify security weaknesses and improve their security posture</p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Professional Summary</h2>
+      <p>I am a cybersecurity professional trained through the Ethical Hacker bootcamp at NOVI College Utrecht, an intensive HBO-level program focused on applied security and real-world attack scenarios.
+        I completed two parallel learning tracks—Security Orchestration and Software Security—where theoretical concepts were consistently translated into hands-on assignments and a comprehensive final project.
+        <br><br>
+        My focus lies in offensive security, web application testing, and vulnerability analysis, with strong attention to scope, impact and remediation. I approach security work analytically and methodically, translating technical findings into clear, risk-based recommendations that organizations can act on.</p>
+    </div>
+  </section>
+
+  <section id="Selected Security projects" class="section">
+    <div class="container">
+      <h2>Selected Security Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Vulnerability Analysis & Reporting Project</h3>
+          <p><strong>Context:</strong> Final bootcamp assessment</p>
+          <p><strong>Scope:</strong> End-to-end vulnerability assessment</p>
+          <p><strong>Approach:</strong> Identification, validation, and impact analysis</p>
+          <p><strong>Outcome:</strong> Professional security report tailored for both technical and non-technical stakeholders</p>
+          <p><strong>Type:</strong> Simulated security assessment (HBO-level Bootcamp project)</p>
+        </div>
+        <div class="project-card">
+          <h3>Web Application Security Assessment — OWASP Top 10</h3>
+          <p><strong>Context:</strong> Simulated assessment environment</p>
+          <p><strong>Scope:</strong> Authentication, input validation, and access control</p>
+          <p><strong>Approach:</strong> Structured testing based on OWASP methodology</p>
+          <p><strong>Findings:</strong> Injection flaws, broken authentication, and insecure configurations</p>
+          <p><strong>Outcome:</strong> Risk-based report with clear remediation guidance</p>
+          <p><strong>Type:</strong> Simulated security assessment (HBO-level Bootcamp project)</p>
+        </div>
+        <div class="project-card">
+          <h3>Network & Service Reconnaissance Assessment</h3>
+          <p><strong>Context:</strong> Controlled lab environment</p>
+          <p><strong>Scope:</strong> Network discovery and exposed services</p>
+          <p><strong>Approach:</strong> Active reconnaissance and service enumeration</p>
+          <p><strong>Tools:</strong> Nmap, manual verification</p>
+          <p><strong>Outcome:</strong> Identified attack surface and prioritized security risks</p>
+          <p><strong>Type:</strong> Simulated security assessment (HBO-level Bootcamp project)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Tooling & Technologies</h2>
+      <p>Tooling is used to support manual analysis, substitute for methodology.</p>
+      <br>
+      <ul class="skills-list">
+        <li>Kali Linux</li>
+        <li>Nmap</li>
+        <li>Burp Suite</li>
+        <li>Metasploit</li>
+        <li>SQLmap</li>
+        <li>Wireshark</li>
+        <li>Linux / Bash</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <form class="contact-form" action="mailto:example@email.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Naam" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <textarea name="message" placeholder="Bericht" required></textarea>
+        <button type="submit">Verzenden</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Levi Hekman. Alle rechten voorbehouden.</p>
+    </div>
+  </footer>
+</body>
+</html>
